@@ -1,0 +1,27 @@
+
+
+.Home{
+    grid-column: center;
+    grid-row: center;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    top: -15%;
+}
+a{
+ display: flex;
+}
+a > button{
+    border:none;
+    background-color: inherit;
+    justify-self: center;
+    align-self: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 90%;
+    width: 90%;
+    outline: none !important;
+}
+a > button > .MuiSvgIcon-root {
+    font-size: 3vh;
+}

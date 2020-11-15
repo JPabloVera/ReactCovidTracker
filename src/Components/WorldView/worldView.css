@@ -1,0 +1,43 @@
+@media (orientation: landscape) and (min-device-width: 175vh){ 
+    .worldView{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .map{
+        width: 70%;
+        height: 100%;
+        background-color: #1a2637;
+
+    }
+    .estatisc{
+
+        height: 100%;
+        width: 29%;
+
+    }
+}
+
+@media (orientation: portrait),(max-device-width: 175vh){
+    .worldView{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+    }
+    .map{
+        background-color: #1a2637;
+        height: 100%;
+        grid-row-end: 2;
+    }
+    .estatisc{
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+
+    }
+}

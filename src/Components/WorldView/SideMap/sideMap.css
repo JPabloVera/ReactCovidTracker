@@ -1,0 +1,24 @@
+@media (orientation: landscape) and (min-device-width: 175vh){
+
+    .mapContainer{
+        width: 110vh ;
+        height: 79vh;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}
+
+@media (orientation: portrait),(max-device-width: 175vh){
+    
+    .mapContainer{
+        width: 80vw ;
+        height: 40vh;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+}
