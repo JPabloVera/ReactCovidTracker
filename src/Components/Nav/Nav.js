@@ -1,11 +1,6 @@
-import React, { useState,useEffect } from 'react';
+import React from 'react';
 import './Nav.css'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
   import { useDispatch } from 'react-redux';
 
 const Nav = () => {
@@ -18,7 +13,7 @@ const Nav = () => {
             <div className="navContainer">
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/ReactCovidTracker/">Home</Link>
                         </li>
                         <li>
                             <Link to="/map" onClick={onMapClick}>Map</Link>
